@@ -160,4 +160,6 @@ span {
     margin-right: 5px;
 }
 
-
+.listing li:hover::before {
+    color: yellow;
+}
