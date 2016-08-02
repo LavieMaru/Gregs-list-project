@@ -1,0 +1,170 @@
+a:hover {
+    color: yellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: arial;
+    font-size: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: purple;
+}
+
+.link li {
+    list-style: none;
+    display: inline;
+}
+
+.link ul {
+    float: right;
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: #EEEEEE;
+    min-width: 100%;
+    margin-left: 0 90px 100px 20px;
+    height: 60px;
+    color: purple;
+    display: inline-block;
+}
+
+.left {
+    margin-left: 30px;
+    margin-top: 20px;
+    vertical-align: center;
+    display: inline-block;
+    color: black;
+}
+
+.right-nav {
+    text-align: right;
+    margin-right: 25px;
+    color: purple;
+}
+
+body {
+    margin: -10px 0 0 0;
+}
+
+main {
+    padding-top: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+.search-bar {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 1px 0 15px 50px;
+}
+
+.search .fa {
+    margin: 0px 0 0px 5px;
+    border: 1px solid #dddddd;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    border-radius: 3px;
+}
+
+.search i {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pages {
+    background-color: white;
+    display: inline-block;
+    font-size: 0;
+    margin: 15px 0 15px 50px;
+    border-radius: 3px;
+    text-align: center;
+    color: black;
+}
+
+.pages a,
+span {
+    padding-top: 10px;
+    padding-bottom: -75px;
+}
+
+.prev {
+    width: 80px;
+    height: 40px;
+    border: 1px #dddddd solid;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.pages a {
+    color: black;
+}
+
+.page-nav {
+    width: 160px;
+    height: 40px;
+    border: 1px #dddddd solid;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.next {
+    width: 80px;
+    height: 40px;
+    border: 1px #dddddd solid;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.listing {
+    margin: 30px 15px 0px 10px;
+}
+
+.listing a {
+    color: blue;
+    text-decoration: none;
+}
+
+.listing ul {
+    font-size: 16px;
+    list-style: none;
+    color: gray;
+}
+
+.listing li {
+    margin-top: 15px;
+}
+
+
+
+.listing li::before {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: gray;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+:hover{
+	color: yellow;
+}
+
+/*nav {
+	background-color: rgb(235,233,235);
+	height: 60px;
+}
+*/
